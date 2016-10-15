@@ -1,0 +1,32 @@
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: pink;
+}
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    
+}
+
+table nth-child(even) {
+    background-color: silver;
+}
+
+tr {
+    background-color: blu;
+}
+th {
+    background-color: red;
+}
+td {
+    background-color: whit;
+}
