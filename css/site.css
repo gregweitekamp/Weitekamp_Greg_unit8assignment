@@ -1,32 +1,59 @@
 table {
     font-family: sans-serif;
     border-collapse: collapse;
+    border: 1px solid #dddddd;
     width: 100%;
-    background-color: pink;
+    background-color: pin;
+
 }
+
 th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+
 }
 
 td {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
-    
+
 }
 
-table nth-child(even) {
-    background-color: silver;
+#row1 {
+    color: white;
 }
 
-tr {
-    background-color: blu;
+#row4 {
+    background-color: deeppink;
+    color: white;
+
 }
-th {
+
+.one {
+    background-color: purple;
+
+}
+
+.two {
+    background-color: green;
+
+}
+
+.three {
+    background-color: blue;
+
+}
+
+.four {
     background-color: red;
+
 }
-td {
-    background-color: whit;
+
+.seven {
+    background-color: black;
+    color: yellow;
+    /*text-align: center;*/
+
 }
